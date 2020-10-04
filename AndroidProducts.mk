@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_channel.mk
+    $(LOCAL_DIR)/derp_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_channel-eng \
-    lineage_channel-user \
-    lineage_channel-userdebug
+    derp_channel-eng \
+    derp_channel-user \
+    derp_channel-userdebug

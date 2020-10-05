@@ -37,3 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPY29.148-140/687ae:user/release-keys
+
+#FLOKOROM OFFICIAL
+FLOKO_BUILD_TYPE=OFFICIAL

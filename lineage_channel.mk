@@ -24,6 +24,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+#Build With Oneplus Launcher One.
+LAWNCHAIR_OPTOUT := true
+#Build With Gapps Variant.
+SAKURA_GAPPS := true
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel

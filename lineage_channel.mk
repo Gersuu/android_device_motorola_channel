@@ -28,6 +28,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 LAWNCHAIR_OPTOUT := true
 #Build With Gapps Variant.
 SAKURA_GAPPS := true
+#BOOT ANIMATION RES.
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
